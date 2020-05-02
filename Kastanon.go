@@ -51,10 +51,10 @@ func main() {
 	ctsdata = strings.Split(ctsdata, "#!")[0]
 	readCTSData(ctsdata)
 	log.Println("Read !#ctsdata succesfully!")
-	log.Println("Starting Nyaya Shell")
+	log.Println("Starting Kastanon Shell")
 	shellreader := bufio.NewReader(os.Stdin)
 	fmt.Println("---------------------")
-	fmt.Println("Nyaya Shell")
+	fmt.Println("Kastanon Shell")
 	fmt.Println("---------------------")
 	for {
 		fmt.Println()
